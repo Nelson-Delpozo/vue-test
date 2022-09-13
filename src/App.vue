@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Favorite Restaurant"/>
+  <CountButton/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CountButton from "./components/CountButton";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CountButton
   }
 }
 </script>
