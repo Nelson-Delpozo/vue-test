@@ -1,5 +1,5 @@
 <template>
-  <button @click="count++">
+  <button @click="count++" v-on:mouseover="count--">
     Count is: {{ count }}
   </button>
   <br>
