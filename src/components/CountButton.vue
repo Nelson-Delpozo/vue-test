@@ -15,5 +15,7 @@ export default {
 </script>
 
 <style scoped>
-
+button{
+  background-color: #42b983;
+}
 </style>
