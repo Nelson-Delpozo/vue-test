@@ -2,6 +2,7 @@
   <div v-for="team in teams" :key="team.name">
 <h3>{{team.name}}</h3>
   <h5 v-for="driver in team.drivers" :key="driver">{{driver}}</h5>
+    <hr>
   </div>
 </template>
 
