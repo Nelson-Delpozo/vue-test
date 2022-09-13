@@ -1,5 +1,5 @@
 <template>
-  <button @click="count++" v-on:mouseover="count--">
+  <button @click="increment" v-on:mouseover="count--">
     Count is: {{ count }}
   </button>
   <br>
@@ -18,6 +18,10 @@ export default {
   methods:{
     alert(){
       alert("you clicked that button")
+    },
+    increment(e){
+      console.log("event:", e)
+      this.count++
     }
   }
 }

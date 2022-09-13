@@ -3,6 +3,7 @@
   <HelloWorld msg="Welcome to Your Favorite Restaurant"/>
   <CountButton/>
   <ListOfTeams/>
+  <CountButton/>
 </template>
 
 <script>
@@ -22,7 +23,7 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Stint Ultra Condensed', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
