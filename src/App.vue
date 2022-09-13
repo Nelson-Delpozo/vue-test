@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img alt="Vue logo" src="./assets/logo2.png" height="200">
   <HelloWorld msg="Welcome to Your Favorite Restaurant"/>
   <CountButton/>
   <ListOfTeams/>
