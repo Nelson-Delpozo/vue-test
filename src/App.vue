@@ -2,6 +2,7 @@
   <NavBar/>
   <img alt="Vue logo" src="./assets/logo2.png" height="200">
   <HelloWorld msg="Welcome to Your Favorite Restaurant"/>
+  <Form-one/>
   <CountButton/>
   <ListOfTeams/>
   <CountButton/>
@@ -12,10 +13,12 @@ import HelloWorld from './components/HelloWorld.vue'
 import CountButton from "./components/CountButton";
 import ListOfTeams from "@/components/ListOfTeams";
 import NavBar from "@/components/NavBar";
+import FormOne from "@/components/Form-one";
 
 export default {
   name: 'App',
   components: {
+    FormOne,
     NavBar,
     ListOfTeams,
     HelloWorld,
