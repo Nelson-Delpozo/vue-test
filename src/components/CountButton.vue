@@ -1,9 +1,9 @@
 <template>
-  <button @click="increment" v-on:mouseover="count--">
+  <button class="btn btn-danger" @click="increment" v-on:mouseover="count--">
     Count is: {{ count }}
   </button>
   <br>
-  <button @click="alert">
+  <button class="btn btn-danger" @click="alert">
     Click for Alert
   </button>
 </template>
